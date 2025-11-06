@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="nl">
+	
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="jouw naam">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Paradiso Webshop</title>
+	
+	<link href="styles/style.css" rel="stylesheet">
+	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
+
+<body class="product">
+	<header>
+		<div class="offscreenmenu">
+			<button><img src="images/close.svg" alt="">Menu</button>
+			<ul>
+				<li><a href="index.html">Shop</a></li>
+				<li><a href="index.html">Lidmaadschappen</a></li>
+				<li><a href="index.html">Programma</a></li>
+				<li><a href="index.html">Account</a></li>
+			</ul>
+		</div>
+
+		<nav>
+			<button><img src="images/hamburger.svg" alt="">Menu</button>
+			<div>
+				<a href="#producten"><span>Producten</span></a>
+				<a href="index.html">Winkelmand</a>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<section>
+			<p>Paradiso</p>
+			<img src="images/jascollab.png" alt="La Fam x Paradiso Amsterdam Jas">
+			<p>La Fam x Paradiso Amsterdam Jas</p>
+		</section>
+
+		<section>
+			<h1 id="producten">Producten</h1>
+		
+			<article>
+				<label for="filter">Filter op</label>
+				<select name="filter" id="filter">
+					<option value="alle">Alle</option>
+					<option value="boeken">Boeken</option>
+					<option value="tassen">Tassen</option>
+					<option value="kleding">Kleding</option>
+				</select>
+
+				<label for="sorteer">Sorteer op</label>
+				<select name="sorteer" id="sorteer">
+					<option value="aanbevolen">Aanbevolen</option>
+					<option value="populair">Populair</option>
+					<option value="hoogsteprijs">Hoogste Prijs</option>
+					<option value="laagsteprijs">Laagste Prijs</option>
+				</select>
+			</article>
+
+			<ul>
+				<li>
+					<a href="index.html">
+						<img src="images/indiestadpas.png" alt="Indiestad Pas, met als plaatje een kikker op een fiets">
+						<h2>Indiestad Pas 2025</h2>
+						<p>&euro; 50,00</p>
+					</a>
+				</li>
+				<li>
+					<a href="index.html">
+						<img src="images/experimentaljet.png" alt="Meisje met een grijs paradiso shirt, waarbij het logo zich herhaalt">
+						<h2>Experimental Jetset &bull; Blowout</h2>
+						<p>&euro; 25,00</p>
+					</a>
+				</li>
+				<li>
+					<a href="index.html">
+						<img src="images/lafamxparadisojas.png" alt="La Fam x Paradiso Amsterdam Zwarte Leren Jas">
+						<h2>La Fam x Paradiso Amsterdam Jas</h2>
+						<p>&euro; 240,00</p>
+					</a>
+				</li>
+				<li>
+					<a href="index.html">
+						<img src="images/vinylclubtshirt.png" alt="Paradiso Vynil Club Wit T-Shirt">
+						<h2>Paradiso Vynil Club &bull; T-Shirt White</h2>
+						<p>&euro; 25,00</p>
+					</a>
+				</li>
+				<li>
+					<a href="index.html">
+						<img src="images/vinylclublongsleeve.png" alt="Paradiso Vynil Club Zwarte Longsleeve">
+						<h2>Paradiso Vynil Club &bull; Longsleeve Black</h2>
+						<p>&euro; 35,00</p>
+					</a>
+				</li>
+				<li>
+					<a href="index.html">
+						<img src="images/jaarlidmaadschap.png" alt="Jaarlidmaadschap">
+						<h2>Jaarlidmaadschap</h2>
+						<p>&euro; 27,50</p>
+					</a>
+				</li>
+				<li>
+					<a href="index.html">
+						<img src="images/paradisopunkjarendeel1.png" alt="Paradiso Punk Jaarlidmaadschap Deel 1">
+						<h2>De Paradiso Punk Jaren &bull; Deel 1 (Heruitgave)</h2>
+						<p>&euro; 24,99</p>
+					</a>
+				</li>
+				<li>
+					<a href="index.html">
+						<img src="images/paradisoprintseivor.png" alt="Poster van een vrouw met witte haren en cliffen op de achtergrond. Eivor als titel bovenin het kunstwerk">
+						<h2>Paradiso Prints Eivor door Nonna Hoogland</h2>
+						<p>&euro; 20,00</p>
+					</a>
+				</li>
+			</ul>
+
+			<a href="index.html">Toon alle producten<img src="images/pijl.png" alt=""></a>
+		</section>
+	</main>
+
+	<footer>
+		<article>
+			<section>
+				<h2>Klantenservice</h2>
+				<nav>
+					<ul>
+						<li><a href="index.html">CONTACT</a></li>
+						<li><a href="index.html">OVER ONS</a></li>
+						<li><a href="index.html">PRIVACY POLICY</a></li>
+						<li><a href="index.html">ALGEMENE VOORWAARDEN</a></li>
+					</ul>
+				</nav>
+			</section>
+
+			<section>
+				<h2>Dus dit is ...</h2>
+				<p>
+				de webshop van Paradiso met wisselende artikelen zoals lidmaatschappen,
+				posters, passen en vinyl. Producties in samenwerking met ontwerpers,
+				kunstenaars en muzikanten voor een origineel en uniek product.
+				</p>
+			</section>
+
+			<section>
+				<h2>Nieuwsbrief</h2>
+				<p>
+				Schrijf je in voor onze nieuwsbrief om op de hoogte gehouden te worden 
+				van speciale acties en nieuwe producten.
+				</p>
+				<form>
+					<label for="email"></label>
+					<input type="email" id="email" name="email" placeholder="E-mail" required>
+					<button type="submit">Schrijf in</button>
+				</form>
+			</section>
+		</article>
+		<section>
+			<ul>
+				<li>&copy;PARADISO WEBSHOP 2025</li>
+				<li>SERVICEVOORWAARDEN</li>
+				<li>TERUGBETALINGSBELEID</li>
+			</ul>
+		</section>
+	</footer>
+
+	<script defer src="scripts/script.js"></script>
+</body>
+	
+</html>
