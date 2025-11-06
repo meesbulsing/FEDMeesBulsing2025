@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-family: Montserrat-ExtraBold, Montserrat;
+        font-size: 20.81px;
+        font-variation-settings: 'wght' 800;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <rect x="-.06" width="16.06" height="16.06"/>
+  <text class="cls-3" transform="translate(.45 16.23) scale(.87 1)"><tspan class="cls-2" x="0" y="0">P</tspan><tspan class="cls-1" x="14.4" y="0">a</tspan></text>
+</svg>
